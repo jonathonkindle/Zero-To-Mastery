@@ -1,0 +1,41 @@
+#content {
+  margin: auto;
+  max-width: 800px;
+  text-align: center;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+span {
+  float: right;
+  padding: 5px 20px;
+  background-color: aquamarine;
+}
+
+ul:after {
+  clear: both;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+li:hover {
+  cursor: pointer;
+}
